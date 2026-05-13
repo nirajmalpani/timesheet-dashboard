@@ -2,73 +2,73 @@
   {
     "id": "w_1",
     "weekNumber": 1,
-    "weekStart": "2024-01-01",
-    "weekEnd": "2024-01-05"
+    "weekStart": "2026-03-16",
+    "weekEnd": "2026-03-20"
   },
   {
     "id": "w_2",
     "weekNumber": 2,
-    "weekStart": "2024-01-08",
-    "weekEnd": "2024-01-12"
+    "weekStart": "2026-03-23",
+    "weekEnd": "2026-03-27"
   },
   {
     "id": "w_3",
     "weekNumber": 3,
-    "weekStart": "2024-01-15",
-    "weekEnd": "2024-01-19"
+    "weekStart": "2026-03-30",
+    "weekEnd": "2026-04-03"
   },
   {
     "id": "w_4",
     "weekNumber": 4,
-    "weekStart": "2024-01-22",
-    "weekEnd": "2024-01-26"
+    "weekStart": "2026-04-06",
+    "weekEnd": "2026-04-10"
   },
   {
     "id": "w_5",
     "weekNumber": 5,
-    "weekStart": "2024-01-29",
-    "weekEnd": "2024-02-02"
+    "weekStart": "2026-04-13",
+    "weekEnd": "2026-04-17"
   },
   {
     "id": "w_6",
     "weekNumber": 6,
-    "weekStart": "2024-02-05",
-    "weekEnd": "2024-02-09"
+    "weekStart": "2026-04-20",
+    "weekEnd": "2026-04-24"
   },
   {
     "id": "w_7",
     "weekNumber": 7,
-    "weekStart": "2024-02-12",
-    "weekEnd": "2024-02-16"
+    "weekStart": "2026-04-27",
+    "weekEnd": "2026-05-01"
   },
   {
     "id": "w_8",
     "weekNumber": 8,
-    "weekStart": "2024-02-19",
-    "weekEnd": "2024-02-23"
+    "weekStart": "2026-05-04",
+    "weekEnd": "2026-05-08"
   },
   {
     "id": "w_9",
     "weekNumber": 9,
-    "weekStart": "2024-02-26",
-    "weekEnd": "2024-03-01"
+    "weekStart": "2026-05-11",
+    "weekEnd": "2026-05-15"
   },
   {
     "id": "w_10",
     "weekNumber": 10,
-    "weekStart": "2024-03-04",
-    "weekEnd": "2024-03-08"
+    "weekStart": "2026-05-18",
+    "weekEnd": "2026-05-22"
   },
   {
     "id": "w_11",
     "weekNumber": 11,
-    "weekStart": "2024-03-11",
-    "weekEnd": "2024-03-15"
+    "weekStart": "2026-05-25",
+    "weekEnd": "2026-05-29"
   },
   {
     "id": "w_12",
     "weekNumber": 12,
-    "weekStart": "2024-03-18",
-    "weekEnd": "2024-03-22"
+    "weekStart": "2026-06-01",
+    "weekEnd": "2026-06-05"
   }
 ]

@@ -14,6 +14,7 @@ import {
   entrySchema,
   type EntryInput,
 } from "@/lib/validators";
+import { formatDayLabel } from "@/lib/week-utils";
 import type { TimesheetEntry } from "@/types";
 
 interface AddEntryModalProps {
@@ -69,13 +70,23 @@ export function AddEntryModal({
   const hours = watch("hours");
 
   async function submit(values: EntryInput) {
-    await onSubmit(values);
+    // Always submit with the date that was passed in. The form field is hidden,
+    // but we override here defensively so the API never rejects on date drift.
+    const date = initial?.date ?? defaultDate;
+    await onSubmit({ ...values, date });
     onClose();
   }
+
+  const targetDate = initial?.date ?? defaultDate;
 
   return (
     <Modal open={open} onClose={onClose} title={isEdit ? "Edit Entry" : "Add New Entry"}>
       <form onSubmit={handleSubmit(submit)} noValidate className="space-y-4" aria-label="Entry form">
+        {targetDate && (
+          <p className="text-xs text-gray-500">
+            For <span className="font-medium text-gray-700">{formatDayLabel(targetDate)}</span>
+          </p>
+        )}
         <Select
           label="Select Project *"
           placeholder="Project Name"
