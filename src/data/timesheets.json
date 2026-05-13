@@ -1,0 +1,74 @@
+[
+  {
+    "id": "w_1",
+    "weekNumber": 1,
+    "weekStart": "2024-01-01",
+    "weekEnd": "2024-01-05"
+  },
+  {
+    "id": "w_2",
+    "weekNumber": 2,
+    "weekStart": "2024-01-08",
+    "weekEnd": "2024-01-12"
+  },
+  {
+    "id": "w_3",
+    "weekNumber": 3,
+    "weekStart": "2024-01-15",
+    "weekEnd": "2024-01-19"
+  },
+  {
+    "id": "w_4",
+    "weekNumber": 4,
+    "weekStart": "2024-01-22",
+    "weekEnd": "2024-01-26"
+  },
+  {
+    "id": "w_5",
+    "weekNumber": 5,
+    "weekStart": "2024-01-29",
+    "weekEnd": "2024-02-02"
+  },
+  {
+    "id": "w_6",
+    "weekNumber": 6,
+    "weekStart": "2024-02-05",
+    "weekEnd": "2024-02-09"
+  },
+  {
+    "id": "w_7",
+    "weekNumber": 7,
+    "weekStart": "2024-02-12",
+    "weekEnd": "2024-02-16"
+  },
+  {
+    "id": "w_8",
+    "weekNumber": 8,
+    "weekStart": "2024-02-19",
+    "weekEnd": "2024-02-23"
+  },
+  {
+    "id": "w_9",
+    "weekNumber": 9,
+    "weekStart": "2024-02-26",
+    "weekEnd": "2024-03-01"
+  },
+  {
+    "id": "w_10",
+    "weekNumber": 10,
+    "weekStart": "2024-03-04",
+    "weekEnd": "2024-03-08"
+  },
+  {
+    "id": "w_11",
+    "weekNumber": 11,
+    "weekStart": "2024-03-11",
+    "weekEnd": "2024-03-15"
+  },
+  {
+    "id": "w_12",
+    "weekNumber": 12,
+    "weekStart": "2024-03-18",
+    "weekEnd": "2024-03-22"
+  }
+]
